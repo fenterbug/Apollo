@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33417.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Blazor", "Apollo.GUI.Blazor\Apollo.GUI.Blazor.csproj", "{B851483D-6604-4C77-80D0-2A1CA44A73D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Blazor", "Apollo.GUI.Blazor\Apollo.GUI.Blazor.csproj", "{B851483D-6604-4C77-80D0-2A1CA44A73D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Maui", "Apollo.GUI.Maui\Apollo.GUI.Maui.csproj", "{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Maui", "Apollo.GUI.Maui\Apollo.GUI.Maui.csproj", "{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Common", "Apollo.GUI.Common\Apollo.GUI.Common.csproj", "{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,39 +1,39 @@
-using Apollo.GUI.Blazor.Data;
-
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using Apollo.GUI.Common.Data;
 
 namespace Apollo.GUI.Blazor {
-    public class Program {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddRazorPages();
-            builder.Services.AddServerSideBlazor();
-            builder.Services.AddSingleton<WeatherForecastService>();
+   public class Program {
 
-            var app = builder.Build();
+      public static void Main(string[] args)
+      {
+         var builder = WebApplication.CreateBuilder(args);
 
-            // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+         // Add services to the container.
+         builder.Services.AddRazorPages();
+         builder.Services.AddServerSideBlazor();
+         builder.Services.AddSingleton<WeatherForecastService>();
 
-            app.UseHttpsRedirection();
+         var app = builder.Build();
 
-            app.UseStaticFiles();
+         // Configure the HTTP request pipeline.
+         if (!app.Environment.IsDevelopment())
+         {
+            app.UseExceptionHandler("/Error");
+            // The default HSTS value is 30 days. You may want to change this for production
+            // scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+         }
 
-            app.UseRouting();
+         app.UseHttpsRedirection();
 
-            app.MapBlazorHub();
-            app.MapFallbackToPage("/_Host");
+         app.UseStaticFiles();
 
-            app.Run();
-        }
-    }
+         app.UseRouting();
+
+         app.MapBlazorHub();
+         app.MapFallbackToPage("/_Host");
+
+         app.Run();
+      }
+   }
 }
