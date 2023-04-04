@@ -1,4 +1,4 @@
-﻿using Apollo.GUI.Common.Data;
+﻿using Apollo.GUI.Weather.Data;
 
 using Microsoft.Extensions.Logging;
 

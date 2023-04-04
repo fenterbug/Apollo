@@ -55,6 +55,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Apollo.GUI.Common\Apollo.GUI.Common.csproj" />
+      <ProjectReference Include="..\Apollo.GUI.Counter\Apollo.GUI.Counter.csproj" />
     </ItemGroup>
 
 </Project>

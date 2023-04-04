@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Maui", "Apollo.G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Common", "Apollo.GUI.Common\Apollo.GUI.Common.csproj", "{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Weather", "Apollo.GUI.Weather\Apollo.GUI.Weather.csproj", "{CF4A136B-B940-4748-B2A6-63EAACFC45E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Counter", "Apollo.GUI.Counter\Apollo.GUI.Counter.csproj", "{38E42445-377D-4805-94A3-8946B705E4AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4A136B-B940-4748-B2A6-63EAACFC45E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4A136B-B940-4748-B2A6-63EAACFC45E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4A136B-B940-4748-B2A6-63EAACFC45E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4A136B-B940-4748-B2A6-63EAACFC45E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E42445-377D-4805-94A3-8946B705E4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E42445-377D-4805-94A3-8946B705E4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E42445-377D-4805-94A3-8946B705E4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E42445-377D-4805-94A3-8946B705E4AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
