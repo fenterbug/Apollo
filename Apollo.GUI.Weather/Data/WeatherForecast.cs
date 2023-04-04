@@ -1,4 +1,4 @@
-namespace Apollo.GUI.Common.Data {
+namespace Apollo.GUI.Weather.Data {
     public class WeatherForecast {
         public DateTime Date { get; set; }
 

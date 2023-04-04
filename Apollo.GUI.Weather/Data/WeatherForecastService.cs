@@ -1,4 +1,4 @@
-namespace Apollo.GUI.Common.Data {
+namespace Apollo.GUI.Weather.Data {
     public class WeatherForecastService {
         private static readonly string[] Summaries = new[]
         {
