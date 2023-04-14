@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Blazor", "Apollo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Maui", "Apollo.GUI.Maui\Apollo.GUI.Maui.csproj", "{ABDC1B90-5C43-45FB-B4EE-8D661A1912E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Common", "Apollo.GUI.Common\Apollo.GUI.Common.csproj", "{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Common", "Apollo.GUI.Common\Apollo.GUI.Common.csproj", "{B7FD2F68-7EFB-4CC4-9935-7255C8EF8BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Weather", "Apollo.GUI.Weather\Apollo.GUI.Weather.csproj", "{CF4A136B-B940-4748-B2A6-63EAACFC45E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Weather", "Apollo.GUI.Weather\Apollo.GUI.Weather.csproj", "{CF4A136B-B940-4748-B2A6-63EAACFC45E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.GUI.Counter", "Apollo.GUI.Counter\Apollo.GUI.Counter.csproj", "{38E42445-377D-4805-94A3-8946B705E4AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Counter", "Apollo.GUI.Counter\Apollo.GUI.Counter.csproj", "{38E42445-377D-4805-94A3-8946B705E4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Counter.Domain", "Apollo.Counter.Domain\Apollo.Counter.Domain.csproj", "{8A8575E9-77CA-43D1-B072-33B647FF3B81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{38E42445-377D-4805-94A3-8946B705E4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E42445-377D-4805-94A3-8946B705E4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38E42445-377D-4805-94A3-8946B705E4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
