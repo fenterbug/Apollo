@@ -1,9 +1,11 @@
-namespace Apollo.GUI.Weather.Data {
-    public class WeatherForecastService {
+namespace Apollo.GUI.Weather.Data
+{
+    public class WeatherForecastService : IWeatherForecastService
+    {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
         {
