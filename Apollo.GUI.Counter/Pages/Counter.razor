@@ -1,4 +1,6 @@
 ﻿@page "/counter"
+@using Apollo.Counter.Domain;
+@inject IContext context
 
 <h1>Counter</h1>
 
@@ -7,7 +9,20 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private Apollo.Counter.Domain.Counter currentCount = new();
+    private Apollo.Counter.Domain.Counter currentCount;
 
-    private void IncrementCount() => currentCount.IncrementCount();
+    private void Initialize()
+    {
+    }
+
+    private void IncrementCount()
+    {
+        currentCount.IncrementCount();
+        context.CounterRepository.UpdateCounter(currentCount);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentCount = context.CounterRepository.GetCounter();
+    }
 }

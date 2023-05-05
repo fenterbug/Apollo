@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Apollo.Counter.Domain\Apollo.Counter.Domain.csproj" />
+    <ProjectReference Include="..\Apollo.Persistence.InMemory\Apollo.Persistence.InMemory.csproj" />
   </ItemGroup>
 
 </Project>

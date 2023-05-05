@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Weather", "Apoll
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.GUI.Counter", "Apollo.GUI.Counter\Apollo.GUI.Counter.csproj", "{38E42445-377D-4805-94A3-8946B705E4AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Counter.Domain", "Apollo.Counter.Domain\Apollo.Counter.Domain.csproj", "{8A8575E9-77CA-43D1-B072-33B647FF3B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.Counter.Domain", "Apollo.Counter.Domain\Apollo.Counter.Domain.csproj", "{8A8575E9-77CA-43D1-B072-33B647FF3B81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo.Persistence.InMemory", "Apollo.Persistence.InMemory\Apollo.Persistence.InMemory.csproj", "{3EC1A0FA-C4F8-433B-8CB3-84AA82754074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Domain.Core", "Apollo.Domain.Core\Apollo.Domain.Core.csproj", "{471CBAD3-7CE3-4C3B-89C0-E339C562DB12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8575E9-77CA-43D1-B072-33B647FF3B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC1A0FA-C4F8-433B-8CB3-84AA82754074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC1A0FA-C4F8-433B-8CB3-84AA82754074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC1A0FA-C4F8-433B-8CB3-84AA82754074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC1A0FA-C4F8-433B-8CB3-84AA82754074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471CBAD3-7CE3-4C3B-89C0-E339C562DB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471CBAD3-7CE3-4C3B-89C0-E339C562DB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471CBAD3-7CE3-4C3B-89C0-E339C562DB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471CBAD3-7CE3-4C3B-89C0-E339C562DB12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
